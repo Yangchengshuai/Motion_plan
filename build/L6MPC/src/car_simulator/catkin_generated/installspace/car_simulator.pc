@@ -1,0 +1,8 @@
+prefix=/home/lab/work/Motion_plan/install
+
+Name: car_simulator
+Description: Description of car_simulator
+Version: 0.0.0
+Cflags: -I/usr/local/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: roscpp nodelet car_msgs

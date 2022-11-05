@@ -1,0 +1,8 @@
+prefix=/home/lab/work/Motion_plan/install
+
+Name: car_msgs
+Description: Description of car_msgs
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

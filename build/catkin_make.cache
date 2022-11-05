@@ -1,0 +1,2 @@
+L6MPC/src/car_msgs:L6MPC/src/car_simulator:L6MPC/src/mpc_car
+-DCATKIN_DEVEL_PREFIX=/home/lab/work/Motion_plan/devel -DCMAKE_INSTALL_PREFIX=/home/lab/work/Motion_plan/install -G Unix Makefiles

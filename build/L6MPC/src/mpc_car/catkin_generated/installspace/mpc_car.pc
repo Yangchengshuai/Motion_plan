@@ -1,0 +1,8 @@
+prefix=/home/lab/work/Motion_plan/install
+
+Name: mpc_car
+Description: Description of mpc_car
+Version: 0.0.0
+Cflags: -I${prefix}/include -I/usr/local/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: roscpp nodelet car_msgs
